@@ -2,6 +2,7 @@
 #include "gf2d_graphics.h"
 #include "gf2d_sprite.h"
 #include "simple_logger.h"
+#include "gf2d_entity.h"
 
 int main(int argc, char * argv[])
 {
@@ -15,6 +16,7 @@ int main(int argc, char * argv[])
 	float pf = 0;
     Sprite *mouse;
     Vector4D mouseColor = {255,100,255,200};
+	Entity *playerEnt;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -32,6 +34,8 @@ int main(int argc, char * argv[])
     SDL_ShowCursor(SDL_DISABLE);
     
     /*demo setup*/
+	gf2d_entity_manager_init(20);
+	playerEnt = gf2d_entity_new();
     sprite = gf2d_sprite_load_image("images/backgrounds/bg_flat.png");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
@@ -47,13 +51,14 @@ int main(int argc, char * argv[])
 		if (pf >= 2.0)pf = 0;
         if (mf >= 16.0)mf = 0;
 
-        
-        
+		if (keys[SDL_SCANCODE_W]){
+			vector2d_sub(playerEnt->position, vector2d(mx, my), playerEnt->position);
+		}
         gf2d_graphics_clear_screen();// clears drawing buffers
         // all drawing should happen betweem clear_screen and next_frame
             //backgrounds drawn first
             gf2d_sprite_draw_image(sprite,vector2d(0,0));
-			gf2d_sprite_draw(player, vector2d(mx, my),NULL,NULL,NULL,NULL,NULL,(int)pf);
+			gf2d_sprite_draw(player, playerEnt->position ,NULL,NULL,NULL,NULL,NULL,(int)pf);
             
             //UI elements last
             gf2d_sprite_draw(
