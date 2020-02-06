@@ -44,6 +44,7 @@
     <IncludePath>C:\Users\Ozyfur\Desktop\2D\gameframework2d\include;C:\Users\Ozyfur\Documents\VulkanProj\SDL2-2.0.10\include;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_ttf-2.0.15\include;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_mixer-2.0.4\include;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_image-2.0.5\include;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_logger\include;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_json\include;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Ozyfur\Documents\VulkanProj\SDL2-2.0.10\lib\x86;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_ttf-2.0.15\lib\x86;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_mixer-2.0.4\lib\x86;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_image-2.0.5\lib\x86;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_logger\libs;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_json\libs;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\libs;$(LibraryPath)</LibraryPath>
     <OutDir>C:\Users\Ozyfur\Desktop\2D\gameframework2d\</OutDir>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -54,9 +55,11 @@
     <ClCompile>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -66,7 +69,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>

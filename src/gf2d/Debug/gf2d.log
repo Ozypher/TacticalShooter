@@ -1,12 +1,8 @@
-﻿Build started 1/29/2020 7:07:01 PM.
+﻿Build started 2/5/2020 1:04:41 PM.
      1>Project "C:\Users\Ozyfur\Desktop\2D\gameframework2d\src\gf2d\gf2d.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\game.c
+         D:\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\game.c
          game.c
-     1>c:\users\ozyfur\desktop\2d\gameframework2d\src\game.c(49): warning C4305: '+=' : truncation from 'double' to 'float'
-     1>c:\users\ozyfur\desktop\2d\gameframework2d\src\game.c(50): warning C4305: '+=' : truncation from 'double' to 'float'
-     1>c:\users\ozyfur\desktop\2d\gameframework2d\src\game.c(55): warning C4244: 'function' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\ozyfur\desktop\2d\gameframework2d\src\game.c(66): warning C4244: 'function' : conversion from 'int' to 'float', possible loss of data
        Link:
          D:\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ozyfur\Desktop\2D\gameframework2d\gf2d.exe" /INCREMENTAL /NOLOGO SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib SDL2.lib SDL2main.lib SDL2test.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ozyfur\Desktop\2D\gameframework2d\gf2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ozyfur\Desktop\2D\gameframework2d\gf2d.lib" /MACHINE:X86 Debug\simple_json.obj
          Debug\simple_json_array.obj
@@ -34,4 +30,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.68
+Time Elapsed 00:00:01.63

@@ -14,17 +14,18 @@ typedef enum
 
 typedef struct Entity_S
 {
-	Uint8        _inuse; /**<Flag to keep track if the instance is in use>**/
-	Vector2D     position; /**<This is where we keep track of the position>**/
-	Vector2D     velocity; /**<The speed that entity is moving at>**/
-	Vector2D     acceleration; /**<The additive that is being applied to the velocity>**/
-	Vector2D     rotation; /**<The rotation value of the entity>**/
-	Vector2D     scale;   /**<How big the entity is>**/
-	EntityState state; /**<What state that entity is in>**/
+	Uint8        _inuse; /**<Flag to keep track if the instance is in use**/
+	Vector2D     position; /**<This is where we keep track of the position**/
+	Vector2D     velocity; /**<The speed that entity is moving at**/
+	Vector2D     acceleration; /**<The additive that is being applied to the velocity**/
+	Vector2D     rotation; /**<The rotation value of the entity**/
+	Vector2D     scale;   /**<How big the entity is**/
+	EntityState state; /**<What state that entity is in**/
 	void(*think)(struct Entity_S* self);
 	void(*update)(struct Entity_S* self);
 	void(*touch)(struct Entity_S* self, struct Entity_S* other);
-	Sprite       *sprite;/**<The sprite being used>**/
+	Sprite       *sprite;/**<The sprite being used**/
+	float        speed; /**<The Speed of an object*/
 
 }Entity;
 /**
