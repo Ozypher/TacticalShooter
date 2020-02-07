@@ -56,32 +56,39 @@ int main(int argc, char * argv[])
         /*update things here*/
         SDL_GetMouseState(&mx,&my);
         mf+=0.1;
-		pf += 0.1;
-		if (pf >= 2.0)pf = 0;
         if (mf >= 16.0)mf = 0;
 		gdistance = ((playerEnt->position.x - mx)*(playerEnt->position.x - mx) + (playerEnt->position.y - my) * (playerEnt->position.y - my));
 		distance = sqrt(gdistance);
-		truDistance = (mx - playerEnt->position.y) + (playerEnt->position.y - my);
-		gangle = (my - playerEnt->position.y) / (mx - playerEnt->position.x);
+		truDistance = (mx - playerEnt->position.x) + (my- playerEnt->position.y);
+		gangle = (playerEnt->position.y - my) / (playerEnt->position.x - mx);
 		angle = atan(gangle);
 		vecangle = vector3d(64, 64, (angle*(57.296)+90));
-		if (truDistance <= 0){
-			vecangle.z += 180;
+		//slog("truDistance is: %f", truDistance);
+		// check if player is 'ahead' of cursor, if they are, flip the rotation, also check if its on top, before doing so.
+		if (playerEnt->position.x >= mx){
+			if (!(playerEnt->position.y == my && playerEnt->position.x == mx)){
+				vecangle.z += 180;
+			}
 		}
+
 		vecturn = &vecangle;
 		slog("The angle is updated to : %f,%f,%f", vecangle.x,vecangle.y,vecangle.z);
 		
 		//slog("distance between is : %f", distance);
+		// sprint
 		if (distance >= 400){
 			playerEnt->speed = 3.0;
 		}
+		// run
 		if (distance >= 200){
 			playerEnt->speed = 2.0;
 		}
+		// walk
 		else{
 			playerEnt->speed = 1.0;
 		}
 		if (keys[SDL_SCANCODE_W]){
+			pf += 0.05 * playerEnt->speed;
 			if (mx >= playerEnt->position.x){
 				playerEnt->position.x += playerEnt->speed;
 			}
@@ -99,6 +106,7 @@ int main(int argc, char * argv[])
         gf2d_graphics_clear_screen();// clears drawing buffers
         // all drawing should happen betweem clear_screen and next_frame
             //backgrounds drawn first
+		if (pf >= 2.0)pf = 0;
             gf2d_sprite_draw_image(sprite,vector2d(0,0));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
             
