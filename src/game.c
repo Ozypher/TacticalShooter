@@ -66,11 +66,11 @@ int main(int argc, char * argv[])
 		//slog("truDistance is: %f", truDistance);
 		// check if player is 'ahead' of cursor, if they are, flip the rotation, also check if its on top, before doing so.
 		if (playerEnt->position.x >= mx){
-			if (!(playerEnt->position.y == my || playerEnt->position.x == mx)){
+			if (!(playerEnt->position.y == my && playerEnt->position.x == mx)){
 				vecangle.z += 180;
 			}
 		}
-		if (truDistance > -2 && truDistance < 2){
+		if (distance > -2 && distance < 2){
 			vecangle.z = 0;
 		}
 
