@@ -44,7 +44,7 @@ int main(int argc, char * argv[])
     /*demo setup*/
 	gf2d_entity_manager_init(20);
 	playerEnt = gf2d_entity_new();
-    sprite = gf2d_sprite_load_image("images/backgrounds/bg_flat.png");
+    sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
     /*main game loop*/
@@ -111,6 +111,9 @@ int main(int argc, char * argv[])
             //backgrounds drawn first
 		if (pf >= 2.0)pf = 0;
             gf2d_sprite_draw_image(sprite,vector2d(0,0));
+			gf2d_sprite_draw_image(sprite, vector2d(780, 585));
+			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
+			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
             
             //UI elements last
