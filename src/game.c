@@ -12,6 +12,8 @@ int main(int argc, char * argv[])
     const Uint8 * keys;
     Sprite *sprite;
 	Sprite *player;
+	Sprite *enemy;
+	Sprite *tracer;
     int mx,my;
     float mf = 0;
 	float pf = 0;
@@ -20,8 +22,12 @@ int main(int argc, char * argv[])
 	float gangle = 0;
 	float angle = 0;
 	float truDistance = 0;
+	Vector2D origin;
+	Vector2D *originpoint;
 	Vector3D vecangle;
+	Vector2D scalevec;
 	Vector3D *vecturn;
+	Vector2D *scale;
     Sprite *mouse;
     Vector4D mouseColor = {255,100,255,200};
 	Entity *playerEnt;
@@ -47,6 +53,8 @@ int main(int argc, char * argv[])
     sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
+	enemy = gf2d_sprite_load_all("imaages/enemy.png", 128, 128, 1);
+	tracer = gf2d_sprite_load_all("images/tracer.png", 24, 128, 1);
     /*main game loop*/
 	playerEnt->speed = 1.0;
     while(!done)
@@ -63,6 +71,10 @@ int main(int argc, char * argv[])
 		gangle = (playerEnt->position.y - my) / (playerEnt->position.x - mx);
 		angle = atan(gangle);
 		vecangle = vector3d(64, 64, (angle*(57.296)+90));
+		scalevec = vector2d(0.25, distance/100);
+		scale = &scalevec;
+		origin = vector2d(0, 64);
+		originpoint = &origin;
 		//slog("truDistance is: %f", truDistance);
 		// check if player is 'ahead' of cursor, if they are, flip the rotation, also check if its on top, before doing so.
 		if (playerEnt->position.x >= mx){
@@ -75,12 +87,12 @@ int main(int argc, char * argv[])
 		}
 
 		vecturn = &vecangle;
-		slog("The angle is updated to : %f,%f,%f", vecangle.x,vecangle.y,vecangle.z);
+		//slog("The angle is updated to : %f,%f,%f", vecangle.x,vecangle.y,vecangle.z);
 		
 		//slog("distance between is : %f", distance);
 		// sprint
-		if (distance >= 400){
-			playerEnt->speed = 3.0;
+		if (distance >= 300){
+			playerEnt->speed = 4.0;
 		}
 		// run
 		if (distance >= 200){
@@ -108,13 +120,15 @@ int main(int argc, char * argv[])
 		}
         gf2d_graphics_clear_screen();// clears drawing buffers
         // all drawing should happen betweem clear_screen and next_frame
-            //backgrounds drawn first
+        
+		//backgrounds drawn first
 		if (pf >= 2.0)pf = 0;
             gf2d_sprite_draw_image(sprite,vector2d(0,0));
 			gf2d_sprite_draw_image(sprite, vector2d(780, 585));
 			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
+			gf2d_sprite_draw(tracer, vector2d(mx, my), scale, originpoint, vecturn, NULL, NULL, 0);
             
             //UI elements last
             gf2d_sprite_draw(
