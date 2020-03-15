@@ -31,6 +31,8 @@ int main(int argc, char * argv[])
     Sprite *mouse;
     Vector4D mouseColor = {255,100,255,200};
 	Entity *playerEnt;
+	Vector4D colorShiftTracer;
+	Vector4D *colorshiftturn;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -91,17 +93,21 @@ int main(int argc, char * argv[])
 		
 		//slog("distance between is : %f", distance);
 		// sprint
-		if (distance >= 300){
-			playerEnt->speed = 4.0;
+		if (distance > 150){
+			playerEnt->speed = 3.0;
+			colorShiftTracer = vector4d(0, 255, 0, 255);
 		}
 		// run
-		if (distance >= 200){
+		if (distance <= 150 && distance >= 60){
 			playerEnt->speed = 2.0;
+			colorShiftTracer = vector4d(255, 255, 0, 255);
 		}
 		// walk
-		else{
+		if (distance < 60){
 			playerEnt->speed = 1.0;
+			colorShiftTracer = vector4d(255, 0, 0, 255);
 		}
+		colorshiftturn = &colorShiftTracer;
 		if (keys[SDL_SCANCODE_W]){
 			pf += 0.05 * playerEnt->speed;
 			if (mx >= playerEnt->position.x){
@@ -128,18 +134,18 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
-			gf2d_sprite_draw(tracer, vector2d(mx, my), scale, originpoint, vecturn, NULL, NULL, 0);
+			gf2d_sprite_draw(tracer, vector2d(mx+32, my+32), scale, originpoint, vecturn, NULL, colorshiftturn, 0);
             
             //UI elements last
-            gf2d_sprite_draw(
-                mouse,
-                vector2d(mx,my),
-                NULL,
-                NULL,
-                NULL,
-                NULL,
-                &mouseColor,
-                (int)mf);
+            //gf2d_sprite_draw(
+              //  mouse,
+                //vector2d(mx,my),
+                //NULL,
+                //NULL,
+                //NULL,
+                //NULL,
+                //&mouseColor,
+                //(int)mf);
         gf2d_grahics_next_frame();// render current draw frame and skip to the next frame
         
         if (keys[SDL_SCANCODE_ESCAPE])done = 1; // exit condition
