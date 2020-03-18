@@ -43,7 +43,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\Users\OzyfurPC\Documents\2d\TacticalShooter\include;C:\Users\OzyfurPC\Documents\SDL2-2.0.12\include;C:\Users\OzyfurPC\Documents\SDL2_ttf-2.0.15\include;C:\Users\OzyfurPC\Documents\SDL2_mixer-2.0.4\include;C:\Users\OzyfurPC\Documents\SDL2_image-2.0.5\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_json\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_logger\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\OzyfurPC\Documents\SDL2-2.0.12\lib\x86;C:\Users\OzyfurPC\Documents\SDL2_ttf-2.0.15\lib\x86;C:\Users\OzyfurPC\Documents\SDL2_mixer-2.0.4\lib\x86;C:\Users\OzyfurPC\Documents\SDL2_image-2.0.5\lib\x86;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_logger\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_json\libs;$(LibraryPath)</LibraryPath>
-    <OutDir>C:\Users\OzyfurPC\Documents\2d\TacticalShooter</OutDir>
+    <OutDir>C:\Users\OzyfurPC\Documents\2d\TacticalShooter\</OutDir>
     <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -102,6 +102,7 @@
     <ClCompile Include="..\..\gfc\src\gfc_text.c" />
     <ClCompile Include="..\..\gfc\src\gfc_types.c" />
     <ClCompile Include="..\..\gfc\src\gfc_vector.c" />
+    <ClCompile Include="..\collision.c" />
     <ClCompile Include="..\game.c" />
     <ClCompile Include="..\gf2d_draw.c" />
     <ClCompile Include="..\gf2d_entity.c" />
@@ -127,6 +128,7 @@
     <ClInclude Include="..\..\gfc\simple_json\include\simple_json_string.h" />
     <ClInclude Include="..\..\gfc\simple_json\include\simple_json_value.h" />
     <ClInclude Include="..\..\gfc\simple_logger\include\simple_logger.h" />
+    <ClInclude Include="..\..\include\collision.h" />
     <ClInclude Include="..\..\include\gf2d_draw.h" />
     <ClInclude Include="..\..\include\gf2d_entity.h" />
     <ClInclude Include="..\..\include\gf2d_graphics.h" />

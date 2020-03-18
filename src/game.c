@@ -4,6 +4,7 @@
 #include "simple_logger.h"
 #include "gf2d_entity.h"
 #include "math.h"
+#include "collision.h"
 
 int main(int argc, char * argv[])
 {
@@ -33,6 +34,8 @@ int main(int argc, char * argv[])
 	Entity *playerEnt;
 	Vector4D colorShiftTracer;
 	Vector4D *colorshiftturn;
+	Entity *enemyEnt;
+	Entity *tracerEnt;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -51,22 +54,26 @@ int main(int argc, char * argv[])
     
     /*demo setup*/
 	gf2d_entity_manager_init(20);
+	tracerEnt = gf2d_entity_new();
 	playerEnt = gf2d_entity_new();
+	enemyEnt = gf2d_entity_new();
     sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
-	enemy = gf2d_sprite_load_all("imaages/enemy.png", 128, 128, 1);
+	enemy = gf2d_sprite_load_all("images/enemy.png", 128, 128, 1);
 	tracer = gf2d_sprite_load_all("images/tracer.png", 24, 128, 1);
     /*main game loop*/
 	playerEnt->speed = 1.0;
+	enemyEnt->position = vector2d(128, 128);
     while(!done)
     {
         SDL_PumpEvents();   // update SDL's internal event structures
         keys = SDL_GetKeyboardState(NULL); // get the keyboard state for this frame
         /*update things here*/
         SDL_GetMouseState(&mx,&my);
+		tracerEnt->position = vector2d(mx, my);
         mf+=0.1;
-        if (mf >= 16.0)mf = 0;
+        if (mf >= 1.0)mf = 0;
 		gdistance = ((playerEnt->position.x - mx)*(playerEnt->position.x - mx) + (playerEnt->position.y - my) * (playerEnt->position.y - my));
 		distance = sqrt(gdistance);
 		truDistance = (mx - playerEnt->position.x) + (my- playerEnt->position.y);
@@ -92,22 +99,32 @@ int main(int argc, char * argv[])
 		//slog("The angle is updated to : %f,%f,%f", vecangle.x,vecangle.y,vecangle.z);
 		
 		//slog("distance between is : %f", distance);
-		// sprint
+		// sprint and rifle mode
 		if (distance > 150){
 			playerEnt->speed = 3.0;
 			colorShiftTracer = vector4d(0, 255, 0, 255);
 		}
-		// run
+		// run and shotgun
 		if (distance <= 150 && distance >= 60){
 			playerEnt->speed = 2.0;
 			colorShiftTracer = vector4d(255, 255, 0, 255);
 		}
-		// walk
+		// walk and knife
 		if (distance < 60){
 			playerEnt->speed = 1.0;
 			colorShiftTracer = vector4d(255, 0, 0, 255);
 		}
 		colorshiftturn = &colorShiftTracer;
+		// GRABBING CODE STARTS HERE
+		if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
+			if (keys[SDL_SCANCODE_SPACE]){
+				enemyEnt->position = tracerEnt->position;
+			}
+		}
+		// GRABBING CODE ENDS HERE
+		// SHOOTING CODE STARTS HERE
+
+		// SHOOTING CODE ENDS HERE
 		if (keys[SDL_SCANCODE_W]){
 			pf += 0.05 * playerEnt->speed;
 			if (mx >= playerEnt->position.x){
@@ -134,6 +151,7 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
+			gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			gf2d_sprite_draw(tracer, vector2d(mx+32, my+32), scale, originpoint, vecturn, NULL, colorshiftturn, 0);
             
             //UI elements last

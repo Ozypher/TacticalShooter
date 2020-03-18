@@ -1,32 +1,8 @@
-﻿Build started 3/17/2020 8:02:56 PM.
+﻿Build started 3/17/2020 8:44:23 PM.
      1>Project "C:\Users\OzyfurPC\Documents\2d\TacticalShooter\src\gf2d\gf2d.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:
-         D:\GAMES\MS\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\gfc\simple_json\src\simple_json.c ..\..\gfc\simple_json\src\simple_json_array.c ..\..\gfc\simple_json\src\simple_json_error.c ..\..\gfc\simple_json\src\simple_json_list.c ..\..\gfc\simple_json\src\simple_json_object.c ..\..\gfc\simple_json\src\simple_json_parse.c ..\..\gfc\simple_json\src\simple_json_string.c ..\..\gfc\simple_logger\src\simple_logger.c ..\..\gfc\src\gfc_audio.c ..\..\gfc\src\gfc_callbacks.c ..\..\gfc\src\gfc_input.c ..\..\gfc\src\gfc_list.c ..\..\gfc\src\gfc_matrix.c ..\..\gfc\src\gfc_text.c ..\..\gfc\src\gfc_types.c ..\..\gfc\src\gfc_vector.c ..\game.c ..\gf2d_draw.c ..\gf2d_entity.c ..\gf2d_graphics.c ..\gf2d_sprite.c
-         gf2d_sprite.c
-         gf2d_graphics.c
-         gf2d_entity.c
-         gf2d_draw.c
+         D:\GAMES\MS\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\game.c
          game.c
-         gfc_vector.c
-         gfc_types.c
-         gfc_text.c
-         gfc_matrix.c
-         gfc_list.c
-         gfc_input.c
-         gfc_callbacks.c
-         gfc_audio.c
-         simple_logger.c
-         simple_json_string.c
-         simple_json_parse.c
-         simple_json_object.c
-         simple_json_list.c
-         simple_json_error.c
-         simple_json_array.c
-         Generating Code...
-         Compiling...
-         simple_json.c
-         Generating Code...
        Link:
          D:\GAMES\MS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gf2d.exe" /INCREMENTAL /NOLOGO SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib SDL2.lib SDL2main.lib SDL2test.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gf2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gf2d.lib" /MACHINE:X86 Debug\simple_json.obj
          Debug\simple_json_array.obj
@@ -44,6 +20,7 @@
          Debug\gfc_text.obj
          Debug\gfc_types.obj
          Debug\gfc_vector.obj
+         Debug\collision.obj
          Debug\game.obj
          Debug\gf2d_draw.obj
          Debug\gf2d_entity.obj
@@ -54,4 +31,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.43
+Time Elapsed 00:00:00.62

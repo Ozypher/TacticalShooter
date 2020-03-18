@@ -78,6 +78,9 @@
     <ClCompile Include="..\gf2d_entity.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\collision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\gf2d_draw.h">
@@ -144,6 +147,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\gf2d_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\collision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
