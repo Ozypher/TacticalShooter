@@ -36,6 +36,7 @@ int main(int argc, char * argv[])
 	Vector4D *colorshiftturn;
 	Entity *enemyEnt;
 	Entity *tracerEnt;
+	float enemydead = 0;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -64,9 +65,10 @@ int main(int argc, char * argv[])
 	tracer = gf2d_sprite_load_all("images/tracer.png", 24, 128, 1);
     /*main game loop*/
 	playerEnt->speed = 1.0;
-	enemyEnt->position = vector2d(128, 128);
+	enemyEnt->position = vector2d(780, 500);
     while(!done)
     {
+		SDL_Event event;
         SDL_PumpEvents();   // update SDL's internal event structures
         keys = SDL_GetKeyboardState(NULL); // get the keyboard state for this frame
         /*update things here*/
@@ -100,12 +102,12 @@ int main(int argc, char * argv[])
 		
 		//slog("distance between is : %f", distance);
 		// sprint and rifle mode
-		if (distance > 150){
+		if (distance > 250){
 			playerEnt->speed = 3.0;
 			colorShiftTracer = vector4d(0, 255, 0, 255);
 		}
 		// run and shotgun
-		if (distance <= 150 && distance >= 60){
+		if (distance <= 250 && distance >= 60){
 			playerEnt->speed = 2.0;
 			colorShiftTracer = vector4d(255, 255, 0, 255);
 		}
@@ -123,7 +125,57 @@ int main(int argc, char * argv[])
 		}
 		// GRABBING CODE ENDS HERE
 		// SHOOTING CODE STARTS HERE
-
+		if (distance > 250){
+			if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
+				while (SDL_PollEvent(&event)) // check to see if an event has happened
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						gf2d_entity_free(enemyEnt);
+						enemydead += 1;
+						slog("Bang!");
+						break;
+					}
+				}
+			}
+		}
+		if (distance < 250 && distance > 60){
+			if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
+				while (SDL_PollEvent(&event))
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						slog("Whoosh!");
+						if (playerEnt->position.x >= enemyEnt->position.x &&  playerEnt->position.y > enemyEnt->position.y){
+							enemyEnt->position.x -= 80.0;
+							enemyEnt->position.y -= 80.0;
+						}
+						if (playerEnt->position.x < enemyEnt->position.x &&  playerEnt->position.y > enemyEnt->position.y){
+							enemyEnt->position.x += 80.0;
+							enemyEnt->position.y -= 80.0;
+						}
+						if (playerEnt->position.x < enemyEnt->position.x &&  playerEnt->position.y < enemyEnt->position.y){
+							enemyEnt->position.x += 80.0;
+							enemyEnt->position.y += 80.0;
+						}
+						if (playerEnt->position.x > enemyEnt->position.x &&  playerEnt->position.y <= enemyEnt->position.y){
+							enemyEnt->position.x -= 80.0;
+							enemyEnt->position.y += 80.0;
+						}
+						break;
+					}
+				}
+			}
+		}
+		else{
+			while (SDL_PollEvent(&event))
+			{
+				switch (event.type) {
+				case SDL_MOUSEBUTTONDOWN:
+					enemydead += 3;
+				}
+			}
+		}
 		// SHOOTING CODE ENDS HERE
 		if (keys[SDL_SCANCODE_W]){
 			pf += 0.05 * playerEnt->speed;
@@ -151,7 +203,9 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
-			gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+			if (enemydead < 3){
+				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+			}
 			gf2d_sprite_draw(tracer, vector2d(mx+32, my+32), scale, originpoint, vecturn, NULL, colorshiftturn, 0);
             
             //UI elements last
