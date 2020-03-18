@@ -41,9 +41,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Ozyfur\Desktop\2D\gameframework2d\include;C:\Users\Ozyfur\Documents\VulkanProj\SDL2-2.0.10\include;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_ttf-2.0.15\include;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_mixer-2.0.4\include;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_image-2.0.5\include;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_logger\include;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_json\include;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Ozyfur\Documents\VulkanProj\SDL2-2.0.10\lib\x86;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_ttf-2.0.15\lib\x86;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_mixer-2.0.4\lib\x86;C:\Users\Ozyfur\Documents\VULKANREAL\SDL2_image-2.0.5\lib\x86;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_logger\libs;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\simple_json\libs;C:\Users\Ozyfur\Desktop\2D\gameframework2d\gfc\libs;$(LibraryPath)</LibraryPath>
-    <OutDir>C:\Users\Ozyfur\Desktop\2D\gameframework2d\</OutDir>
+    <IncludePath>C:\Users\OzyfurPC\Documents\2d\TacticalShooter\include;C:\Users\OzyfurPC\Documents\SDL2-2.0.12\include;C:\Users\OzyfurPC\Documents\SDL2_ttf-2.0.15\include;C:\Users\OzyfurPC\Documents\SDL2_mixer-2.0.4\include;C:\Users\OzyfurPC\Documents\SDL2_image-2.0.5\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_json\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_logger\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\OzyfurPC\Documents\SDL2-2.0.12\lib\x86;C:\Users\OzyfurPC\Documents\SDL2_ttf-2.0.15\lib\x86;C:\Users\OzyfurPC\Documents\SDL2_mixer-2.0.4\lib\x86;C:\Users\OzyfurPC\Documents\SDL2_image-2.0.5\lib\x86;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_logger\include;C:\Users\OzyfurPC\Documents\2d\TacticalShooter\gfc\simple_json\libs;$(LibraryPath)</LibraryPath>
+    <OutDir>C:\Users\OzyfurPC\Documents\2d\TacticalShooter</OutDir>
     <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
