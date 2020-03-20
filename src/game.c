@@ -15,6 +15,9 @@ int main(int argc, char * argv[])
 	Sprite *player;
 	Sprite *enemy;
 	Sprite *tracer;
+	Sprite *barrel;
+	Sprite *lightbulb;
+	Sprite *wall;
     int mx,my;
     float mf = 0;
 	float pf = 0;
@@ -36,6 +39,8 @@ int main(int argc, char * argv[])
 	Vector4D *colorshiftturn;
 	Entity *enemyEnt;
 	Entity *tracerEnt;
+	Entity *barrelEnt;
+	Entity *lightbulbEnt;
 	float enemydead = 0;
     
     /*program initializtion*/
@@ -58,14 +63,19 @@ int main(int argc, char * argv[])
 	tracerEnt = gf2d_entity_new();
 	playerEnt = gf2d_entity_new();
 	enemyEnt = gf2d_entity_new();
+	barrelEnt = gf2d_entity_new();
     sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
 	enemy = gf2d_sprite_load_all("images/enemy.png", 128, 128, 1);
 	tracer = gf2d_sprite_load_all("images/tracer.png", 24, 128, 1);
+	barrel = gf2d_sprite_load_all("images/barrel.png", 128, 128, 1);
+	lightbulb = gf2d_sprite_load_all("images/light.png", 128, 128, 1); 
+	wall = gf2d_sprite_load_all("images/breachable.png", 128, 128, 1);
     /*main game loop*/
 	playerEnt->speed = 1.0;
-	enemyEnt->position = vector2d(780, 500);
+	enemyEnt->position = vector2d(150, 150);
+	barrelEnt->position = vector2d(780, 500);
     while(!done)
     {
 		SDL_Event event;
@@ -74,6 +84,7 @@ int main(int argc, char * argv[])
         /*update things here*/
         SDL_GetMouseState(&mx,&my);
 		tracerEnt->position = vector2d(mx, my);
+
         mf+=0.1;
         if (mf >= 1.0)mf = 0;
 		gdistance = ((playerEnt->position.x - mx)*(playerEnt->position.x - mx) + (playerEnt->position.y - my) * (playerEnt->position.y - my));
@@ -118,9 +129,9 @@ int main(int argc, char * argv[])
 		}
 		colorshiftturn = &colorShiftTracer;
 		// GRABBING CODE STARTS HERE
-		if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
+		if (collide_circle(tracerEnt->position, 5, barrelEnt->position, 32)){
 			if (keys[SDL_SCANCODE_SPACE]){
-				enemyEnt->position = tracerEnt->position;
+				barrelEnt->position = tracerEnt->position;
 			}
 		}
 		// GRABBING CODE ENDS HERE
@@ -131,7 +142,6 @@ int main(int argc, char * argv[])
 				{
 					switch (event.type) {
 					case SDL_MOUSEBUTTONDOWN:
-						gf2d_entity_free(enemyEnt);
 						enemydead += 1;
 						slog("Bang!");
 						break;
@@ -168,15 +178,20 @@ int main(int argc, char * argv[])
 			}
 		}
 		else{
-			while (SDL_PollEvent(&event))
-			{
-				switch (event.type) {
-				case SDL_MOUSEBUTTONDOWN:
-					enemydead += 3;
+			if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
+				while (SDL_PollEvent(&event))
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemydead += 3;
+					}
 				}
 			}
 		}
 		// SHOOTING CODE ENDS HERE
+		// WALL COLLISION START
+		
+		// WALL COLLISION STOP
 		if (keys[SDL_SCANCODE_W]){
 			pf += 0.05 * playerEnt->speed;
 			if (mx >= playerEnt->position.x){
@@ -203,6 +218,7 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
+			gf2d_sprite_draw(barrel, vector2d(barrelEnt->position.x - 64, barrelEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			if (enemydead < 3){
 				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			}
