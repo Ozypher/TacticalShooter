@@ -190,7 +190,10 @@ int main(int argc, char * argv[])
 		}
 		// SHOOTING CODE ENDS HERE
 		// WALL COLLISION START
-		
+		while (collide_circle(playerEnt->position, 32, barrelEnt->position, 32)){
+			playerEnt->speed*=-1;
+			break;
+		}
 		// WALL COLLISION STOP
 		if (keys[SDL_SCANCODE_W]){
 			pf += 0.05 * playerEnt->speed;

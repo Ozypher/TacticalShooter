@@ -1,4 +1,4 @@
-﻿Build started 3/19/2020 11:51:58 PM.
+﻿Build started 3/20/2020 6:17:17 PM.
      1>Project "C:\Users\OzyfurPC\Documents\2d\TacticalShooter\src\gf2d\gf2d.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\GAMES\MS\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\game.c
@@ -31,4 +31,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.66
+Time Elapsed 00:00:00.64
