@@ -19,6 +19,10 @@ int main(int argc, char * argv[])
 	Sprite *lightbulb;
 	Sprite *wall;
 	Sprite *wall2;
+	Sprite *electric;
+	Sprite *hostageZone;
+	Sprite *killZone;
+	Sprite *hostage;
     int mx,my;
     float mf = 0;
 	float pf = 0;
@@ -53,6 +57,10 @@ int main(int argc, char * argv[])
 	Entity *wallEnt8;
 	Entity *wallEnt9;
 	Entity *wallEnt10;
+	Entity *electricBox;
+	Entity *killCheck;
+	Entity *hostageCheck;
+	Entity *hostageEnt;
 	Vector3D vecRightAng;
 	float enemydead = 0;
 	float levelNumber = 0;
@@ -80,19 +88,28 @@ int main(int argc, char * argv[])
 	barrelEnt = gf2d_entity_new();
 	wallEnt1 = gf2d_entity_new();
 	wallEnt2 = gf2d_entity_new();
+	lightbulbEnt = gf2d_entity_new();
+	electricBox = gf2d_entity_new();
+	hostageEnt = gf2d_entity_new();
+	hostageCheck = gf2d_entity_new();
     sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
 	enemy = gf2d_sprite_load_all("images/enemy.png", 128, 128, 1);
 	tracer = gf2d_sprite_load_all("images/tracer.png", 24, 128, 1);
 	barrel = gf2d_sprite_load_all("images/barrel.png", 128, 128, 1);
-	lightbulb = gf2d_sprite_load_all("images/light.png", 128, 128, 1); 
+	lightbulb = gf2d_sprite_load_all("images/light.png", 128, 128, 1);
+	electric = gf2d_sprite_load_all("images/electric box.png", 128, 128, 3);
 	wall = gf2d_sprite_load_all("images/breachable.png", 128, 128, 1);
 	wall2 = gf2d_sprite_load_all("images/reinforced.png", 128, 128, 1);
+	hostage = gf2d_sprite_load_all("images/hostage.png", 128, 128, 1);
+	hostageZone = gf2d_sprite_load_all("images/hostagedrop.png", 128, 128, 1);
     /*main game loop*/
+	hostageEnt->position = vector2d(900, 500);
 	playerEnt->speed = 1.0;
 	enemyEnt->position = vector2d(150, 150);
 	barrelEnt->position = vector2d(780, 500);
+	hostageCheck->position = vector2d(300, 300);
     while(!done)
     {
 		SDL_Event event;
@@ -170,6 +187,24 @@ int main(int argc, char * argv[])
 			18,
 			230
 		};
+		SDL_Rect hostageBox = {
+			hostageEnt->position.x + 64,
+			hostageEnt->position.y + 64,
+			64,
+			64
+		};
+		SDL_Rect hostageArea = {
+			hostageCheck->position.x,
+			hostageCheck->position.y,
+			128,
+			128
+		};
+		SDL_Rect enemyBoxOne = {
+			enemyEnt->position.x+64,
+			enemyEnt->position.y+64,
+			64,
+			64
+		};
 		// SHOOTING CODE STARTS HERE
 		if (distance > 250){
 			if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
@@ -237,6 +272,16 @@ int main(int argc, char * argv[])
 			playerEnt->speed *= -1;
 			break;
 		}
+		while (collide_rect(playerBox, hostageBox)){
+			hostageEnt->position = playerEnt->position;
+			break;
+		}
+		if (collide_rect(hostageBox, hostageArea)){
+			levelNumber = 1;
+		}
+		if (collide_rect(enemyBoxOne, playerBox)){
+			slog("ping!");
+		}
 		// WALL COLLISION STOP
 		if (keys[SDL_SCANCODE_W]){
 			if (mx >= playerEnt->position.x){
@@ -284,19 +329,27 @@ int main(int argc, char * argv[])
 			scaleWall1 = vector2d(2, 1);
 			wallEnt2->position = vector2d(572, 457);
 			vecRightAng = vector3d(64, 64, 90);
-
-
-
-
+			if (enemydead < 3){
+				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+				enemyEnt->position = vector2d(700, 200);
+			}
+			else{
+				enemyEnt->position = vector2d(2000, 2000);
+			}
+			gf2d_sprite_draw(hostageZone, vector2d(hostageCheck->position.x, hostageCheck->position.y), NULL, NULL, NULL, NULL, NULL, NULL);
+			gf2d_sprite_draw(hostage, vector2d(hostageEnt->position.x - 64, hostageEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			gf2d_sprite_draw(wall2, vector2d(wallEnt2->position.x - 64, wallEnt2->position.y - 64), &scaleWall1, NULL, &vecRightAng, NULL, NULL, (int)mf);
 			gf2d_sprite_draw(barrel, vector2d(barrelEnt->position.x - 64, barrelEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			break;
 		}
+		while (levelNumber == 1){
+			wallEnt1->position = vector2d(500, 500);
+			wallEnt2->position = vector2d(625, 500);
+			gf2d_sprite_draw(wall2, vector2d(wallEnt2->position.x - 64, wallEnt2->position.y - 64), &scaleWall1, NULL, &vecRightAng, NULL, NULL, (int)mf);
+			break;
+		}
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
 			gf2d_sprite_draw(wall, vector2d(wallEnt1->position.x-64, wallEnt1->position.y-64), &scaleWall1, NULL, NULL, NULL, NULL, (int)mf);
-			if (enemydead < 3){
-				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
-			}
 			gf2d_sprite_draw(tracer, vector2d(mx+32, my+32), scale, originpoint, vecturn, NULL, colorshiftturn, 0);
             
             //UI elements last

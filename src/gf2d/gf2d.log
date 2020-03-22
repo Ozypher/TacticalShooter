@@ -1,0 +1,53 @@
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:68: ---==== BEGIN ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:132: graphics initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:45: sprite system initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:37: allocated entity list of size 4
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/backgrounds/preview16.jpg
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/pointer.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/walktrue.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/enemy.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/tracer.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/barrel.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/light.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/electric box.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/breachable.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:146: failed to load sprite image images/reinforced.png
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:330: ---==== END ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:28: sprite system closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:163: graphics closed
