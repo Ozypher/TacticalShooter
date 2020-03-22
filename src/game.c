@@ -274,8 +274,12 @@ int main(int argc, char * argv[])
         
 		//backgrounds drawn first
 		if (pf >= 2.0)pf = 0;
+		gf2d_sprite_draw_image(sprite, vector2d(0, 0));
+		gf2d_sprite_draw_image(sprite, vector2d(780, 585));
+		gf2d_sprite_draw_image(sprite, vector2d(780, 0));
+		gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 		//level design here
-		if (levelNumber == 0){
+		while (levelNumber == 0){
 			wallEnt1->position = vector2d(700, 585);
 			scaleWall1 = vector2d(2, 1);
 			wallEnt2->position = vector2d(572, 457);
@@ -284,17 +288,12 @@ int main(int argc, char * argv[])
 
 
 
-
-
-		}
-            gf2d_sprite_draw_image(sprite,vector2d(0,0));
-			gf2d_sprite_draw_image(sprite, vector2d(780, 585));
-			gf2d_sprite_draw_image(sprite, vector2d(780, 0));
-			gf2d_sprite_draw_image(sprite, vector2d(0, 585));
-			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
-			gf2d_sprite_draw(barrel, vector2d(barrelEnt->position.x - 64, barrelEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
-			gf2d_sprite_draw(wall, vector2d(wallEnt1->position.x-64, wallEnt1->position.y-64), &scaleWall1, NULL, NULL, NULL, NULL, (int)mf);
 			gf2d_sprite_draw(wall2, vector2d(wallEnt2->position.x - 64, wallEnt2->position.y - 64), &scaleWall1, NULL, &vecRightAng, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(barrel, vector2d(barrelEnt->position.x - 64, barrelEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+			break;
+		}
+			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
+			gf2d_sprite_draw(wall, vector2d(wallEnt1->position.x-64, wallEnt1->position.y-64), &scaleWall1, NULL, NULL, NULL, NULL, (int)mf);
 			if (enemydead < 3){
 				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			}
