@@ -25,6 +25,9 @@ int main(int argc, char * argv[])
 	Sprite *hostage;
 	Sprite *door;
 	Sprite *breached;
+	Sprite *mission;
+	Sprite *check;
+	Sprite *menu;
     int mx,my;
     float mf = 0;
 	float pf = 0;
@@ -70,6 +73,8 @@ int main(int argc, char * argv[])
 	float levelNumber = 0;
 	float wallBreached = 0;
 	float electricboxalive = 1;
+	float hostageSaved = 0;
+	float menuOn = 0;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -115,6 +120,9 @@ int main(int argc, char * argv[])
 	hostageZone = gf2d_sprite_load_all("images/hostagedrop.png", 128, 128, 1);
 	door = gf2d_sprite_load_image("images/door.png");
 	killZone = gf2d_sprite_load_image("images/end.png");
+	mission = gf2d_sprite_load_image("images/missions.png");
+	check = gf2d_sprite_load_image("images/checked.png");
+	menu = gf2d_sprite_load_image("images/menu.png");
     /*main game loop*/
 	hostageEnt->position = vector2d(900, 500);
 	playerEnt->speed = 1.0;
@@ -163,7 +171,7 @@ int main(int argc, char * argv[])
 
 		vecturn = &vecangle;
 		//slog("The angle is updated to : %f,%f,%f", vecangle.x,vecangle.y,vecangle.z);
-		
+		slog("the mouse is in : %i, %i", mx, my);
 		//slog("distance between is : %f", distance);
 		// sprint and rifle mode
 		if (distance > 250){
@@ -235,6 +243,21 @@ int main(int argc, char * argv[])
 			killCheck->position.y,
 			128,
 			128
+		};
+		SDL_Rect Mouse = {
+			mx,
+			my,
+			1,
+			1
+		};
+		SDL_Rect Yes = {
+		344,
+		237,
+		408,
+		136};
+		SDL_Rect No = {
+			359, 403,
+			392, 115
 		};
 		// SHOOTING CODE STARTS HERE
 		if (distance > 250){
@@ -352,6 +375,7 @@ int main(int argc, char * argv[])
 		if (collide_rect(hostageBox, hostageArea)){
 			levelNumber = 1;
 			wallBreached = 0;
+			hostageSaved = 1;
 		}
 		if (collide_rect(enemyBoxOne, playerBox)){
 			slog("ping!");
@@ -450,17 +474,50 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x-64,playerEnt->position.y-64) ,NULL,NULL,vecturn,NULL,NULL,(int)pf);
 			gf2d_sprite_draw(wallEnt1->sprite, vector2d(wallEnt1->position.x-64, wallEnt1->position.y-64), &scaleWall1, NULL, NULL, NULL, NULL, (int)mf);
 			gf2d_sprite_draw(tracer, vector2d(mx+32, my+32), scale, originpoint, vecturn, NULL, colorshiftturn, 0);
+			if (keys[SDL_SCANCODE_TAB]){
+				gf2d_sprite_draw_image(mission, vector2d(0, 0));
+				if (hostageSaved == 1){
+					gf2d_sprite_draw_image(check, vector2d(50, 150));
+				}
+				if (electricboxalive == 0){
+					gf2d_sprite_draw_image(check, vector2d(40, 330));
+				}
+			}
+			if (keys[SDL_SCANCODE_P]){
+				//slog("menu");
+				menuOn = 1;
+			}
+			if (menuOn == 1){
+				gf2d_sprite_draw_image(menu, vector2d(0, 0));
+				if (collide_rect(Mouse, Yes)){
+					while (SDL_PollEvent(&event))
+					{
+						switch (event.type) {
+						case SDL_MOUSEBUTTONDOWN:
+							done = 1;
+						}
+					}
+				}
+				if (collide_rect(Mouse, No)){
+					while (SDL_PollEvent(&event)){
+						switch (event.type){
+						case SDL_MOUSEBUTTONDOWN:
+							menuOn = 0;
+						}
+					}
+				}
+			}
             
             //UI elements last
-            //gf2d_sprite_draw(
-              //  mouse,
-                //vector2d(mx,my),
-                //NULL,
-                //NULL,
-                //NULL,
-                //NULL,
-                //&mouseColor,
-                //(int)mf);
+            gf2d_sprite_draw(
+                mouse,
+                vector2d(mx,my),
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                &mouseColor,
+                (int)mf);
         gf2d_grahics_next_frame();// render current draw frame and skip to the next frame
         
         if (keys[SDL_SCANCODE_ESCAPE])done = 1; // exit condition
