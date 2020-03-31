@@ -50,6 +50,9 @@ int main(int argc, char * argv[])
 	Vector4D colorShiftTracer;
 	Vector4D *colorshiftturn;
 	Entity *enemyEnt;
+	Entity *enemyEnt1;
+	Entity *enemyEnt2;
+	Entity *enemyEnt3;
 	Entity *tracerEnt;
 	Entity *barrelEnt;
 	Entity *lightbulbEnt;
@@ -75,6 +78,8 @@ int main(int argc, char * argv[])
 	float electricboxalive = 1;
 	float hostageSaved = 0;
 	float menuOn = 0;
+	float lightBulbAlive = 1;
+	float timeEnemy = 0;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -92,7 +97,7 @@ int main(int argc, char * argv[])
     SDL_ShowCursor(SDL_DISABLE);
     
     /*demo setup*/
-	gf2d_entity_manager_init(20);
+	gf2d_entity_manager_init(30);
 	tracerEnt = gf2d_entity_new();
 	playerEnt = gf2d_entity_new();
 	enemyEnt = gf2d_entity_new();
@@ -105,6 +110,10 @@ int main(int argc, char * argv[])
 	hostageCheck = gf2d_entity_new();
 	doorEnt = gf2d_entity_new();
 	killCheck = gf2d_entity_new();
+	enemyEnt1 = gf2d_entity_new();
+	enemyEnt2 = gf2d_entity_new();
+	enemyEnt3 = gf2d_entity_new();
+
     sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
 	breached = gf2d_sprite_load_image("images/breached.png");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
@@ -131,6 +140,8 @@ int main(int argc, char * argv[])
 	hostageCheck->position = vector2d(300, 300);
 	doorEnt->position = vector2d(572, 200);
 	lightbulbEnt->position = vector2d(850, 150);
+	playerEnt->position = vector2d(300, 300);
+	enemyEnt3->speed = 1;
     while(!done)
     {
 		SDL_Event event;
@@ -171,7 +182,7 @@ int main(int argc, char * argv[])
 
 		vecturn = &vecangle;
 		//slog("The angle is updated to : %f,%f,%f", vecangle.x,vecangle.y,vecangle.z);
-		slog("the mouse is in : %i, %i", mx, my);
+		//slog("the mouse is in : %i, %i", mx, my);
 		//slog("distance between is : %f", distance);
 		// sprint and rifle mode
 		if (distance > 250){
@@ -255,9 +266,33 @@ int main(int argc, char * argv[])
 		237,
 		408,
 		136};
+		SDL_Rect electricBOXBOX = {
+			electricBox->position.x +64,
+			electricBox->position.y +64,
+			64,
+			64
+		};
 		SDL_Rect No = {
 			359, 403,
 			392, 115
+		};
+		SDL_Rect enemyBoxOna = {
+			enemyEnt1->position.x + 64,
+			enemyEnt1->position.y + 64,
+			64,
+			64
+		};
+		SDL_Rect enemyBoxTwo = {
+			enemyEnt2->position.x + 64,
+			enemyEnt2->position.y + 64,
+			64,
+			64
+		};
+		SDL_Rect enemyBoxThree = {
+			enemyEnt3->position.x + 64,
+			enemyEnt3->position.y + 64,
+			64,
+			64
 		};
 		// SHOOTING CODE STARTS HERE
 		if (distance > 250){
@@ -266,7 +301,40 @@ int main(int argc, char * argv[])
 				{
 					switch (event.type) {
 					case SDL_MOUSEBUTTONDOWN:
-						enemydead += 1;
+						enemyEnt->health += 1;
+						slog("Bang!");
+						break;
+					}
+				}
+			}
+			if (collide_circle(tracerEnt->position, 5, enemyEnt1->position, 32)){
+				while (SDL_PollEvent(&event)) // check to see if an event has happened
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemyEnt1->health += 1;
+						slog("Bang!");
+						break;
+					}
+				}
+			}
+			if (collide_circle(tracerEnt->position, 5, enemyEnt2->position, 32)){
+				while (SDL_PollEvent(&event)) // check to see if an event has happened
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemyEnt2->health += 1;
+						slog("Bang!");
+						break;
+					}
+				}
+			}
+			if (collide_circle(tracerEnt->position, 5, enemyEnt3->position, 32)){
+				while (SDL_PollEvent(&event)) // check to see if an event has happened
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemyEnt3->health += 1;
 						slog("Bang!");
 						break;
 					}
@@ -274,27 +342,27 @@ int main(int argc, char * argv[])
 			}
 		}
 		if (distance < 250 && distance > 60){
-			if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
+			if (collide_circle(tracerEnt->position, 5, enemyEnt2->position, 32)){
 				while (SDL_PollEvent(&event))
 				{
 					switch (event.type) {
 					case SDL_MOUSEBUTTONDOWN:
 						slog("Whoosh!");
-						if (playerEnt->position.x >= enemyEnt->position.x &&  playerEnt->position.y > enemyEnt->position.y){
-							enemyEnt->position.x -= 80.0;
-							enemyEnt->position.y -= 80.0;
+						if (playerEnt->position.x >= enemyEnt2->position.x &&  playerEnt->position.y > enemyEnt2->position.y){
+							enemyEnt2->position.x -= 80.0;
+							enemyEnt2->position.y -= 80.0;
 						}
-						if (playerEnt->position.x < enemyEnt->position.x &&  playerEnt->position.y > enemyEnt->position.y){
-							enemyEnt->position.x += 80.0;
-							enemyEnt->position.y -= 80.0;
+						if (playerEnt->position.x < enemyEnt2->position.x &&  playerEnt->position.y > enemyEnt2->position.y){
+							enemyEnt2->position.x += 80.0;
+							enemyEnt2->position.y -= 80.0;
 						}
-						if (playerEnt->position.x < enemyEnt->position.x &&  playerEnt->position.y < enemyEnt->position.y){
-							enemyEnt->position.x += 80.0;
-							enemyEnt->position.y += 80.0;
+						if (playerEnt->position.x < enemyEnt2->position.x &&  playerEnt->position.y < enemyEnt2->position.y){
+							enemyEnt2->position.x += 80.0;
+							enemyEnt2->position.y += 80.0;
 						}
-						if (playerEnt->position.x > enemyEnt->position.x &&  playerEnt->position.y <= enemyEnt->position.y){
-							enemyEnt->position.x -= 80.0;
-							enemyEnt->position.y += 80.0;
+						if (playerEnt->position.x > enemyEnt2->position.x &&  playerEnt->position.y <= enemyEnt2->position.y){
+							enemyEnt2->position.x -= 80.0;
+							enemyEnt2->position.y += 80.0;
 						}
 						break;
 					}
@@ -313,20 +381,39 @@ int main(int argc, char * argv[])
 			}
 		}
 		else{
-			if (collide_circle(tracerEnt->position, 5, electricBox->position, 32)){
-				while (SDL_PollEvent(&event)){
-					switch (event.type) {
-					case SDL_MOUSEBUTTONDOWN:
-						electricboxalive = 0;
-					}
-				}
-			}
 			if (collide_circle(tracerEnt->position, 5, enemyEnt->position, 32)){
 				while (SDL_PollEvent(&event))
 				{
 					switch (event.type) {
 					case SDL_MOUSEBUTTONDOWN:
-						enemydead += 3;
+						enemyEnt->health += 3;
+					}
+				}
+			}
+			if (collide_circle(tracerEnt->position, 5, enemyEnt1->position, 32)){
+				while (SDL_PollEvent(&event))
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemyEnt1->health += 3;
+					}
+				}
+			}
+			if (collide_circle(tracerEnt->position, 5, enemyEnt2->position, 32)){
+				while (SDL_PollEvent(&event))
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemyEnt2->health += 3;
+					}
+				}
+			}
+			if (collide_circle(tracerEnt->position, 5, enemyEnt3->position, 32)){
+				while (SDL_PollEvent(&event))
+				{
+					switch (event.type) {
+					case SDL_MOUSEBUTTONDOWN:
+						enemyEnt3->health += 3;
 					}
 				}
 			}
@@ -336,6 +423,7 @@ int main(int argc, char * argv[])
 			{
 				switch (event.type) {
 				case SDL_MOUSEBUTTONDOWN:
+					lightBulbAlive = 0;
 					lightbulbEnt->position = vector2d(13000, 130000);
 				}
 			}
@@ -345,6 +433,22 @@ int main(int argc, char * argv[])
 				playerEnt->position = vector2d(30000000000000, 300000000000);
 			}
 		}
+		if (collide_circle(enemyEnt1->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_rect(playerBox, enemyBoxOna)){
+				playerEnt->position = vector2d(30000000000000, 300000000000);
+			}
+		}
+		if (collide_circle(enemyEnt2->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_rect(playerBox, enemyBoxTwo)){
+				playerEnt->position = vector2d(30000000000000, 300000000000);
+			}
+		}
+		if (collide_circle(enemyEnt3->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_rect(playerBox, enemyBoxThree)){
+				playerEnt->position = vector2d(30000000000000, 300000000000);
+			}
+		}
+
 		// SHOOTING CODE ENDS HERE
 		// WALL COLLISION START
 		while (collide_circle(playerEnt->position, 32, barrelEnt->position, 32)){
@@ -376,9 +480,16 @@ int main(int argc, char * argv[])
 			levelNumber = 1;
 			wallBreached = 0;
 			hostageSaved = 1;
+			lightBulbAlive = 1;
+			enemyEnt1->position = vector2d(10, 10);
+			enemyEnt2->position = vector2d(600, 600);
+			enemyEnt3->position = vector2d(1000, 500);
 		}
 		if (collide_rect(enemyBoxOne, playerBox)){
 			slog("ping!");
+		}
+		if (collide_rect(electricBOXBOX, playerBox)){
+			electricboxalive = 0;
 		}
 		// WALL COLLISION STOP
 		if (keys[SDL_SCANCODE_W]){
@@ -412,6 +523,24 @@ int main(int argc, char * argv[])
 			}
 			//slog("The position has been updated to %f", playerEnt->position);
 		}
+		if (enemyEnt2->position.x >= playerEnt->position.x){
+			enemyEnt2->position.x -= .5;
+		}
+		if (enemyEnt2->position.x < playerEnt->position.x){
+			enemyEnt2->position.x += .5;
+		}
+		if (enemyEnt2->position.y >= playerEnt->position.y){
+			enemyEnt2->position.y -= .5;
+		}
+		if (enemyEnt2->position.y < playerEnt->position.y){
+			enemyEnt2->position.y += .5;
+		}
+		timeEnemy += 0.1;
+		if (timeEnemy >= 20){
+			timeEnemy = 0;
+			enemyEnt3->speed *= -1; 
+		}
+		enemyEnt3->position.y += enemyEnt3->speed;
         gf2d_graphics_clear_screen();// clears drawing buffers
         // all drawing should happen betweem clear_screen and next_frame
         
@@ -423,11 +552,14 @@ int main(int argc, char * argv[])
 		gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 		//level design here
 		while (levelNumber == 0){
+			enemyEnt1->position = vector2d(3000000000, 30000000);
+			enemyEnt2->position = vector2d(3000000000, 30000000);
+			enemyEnt3->position = vector2d(3000000000, 30000000);
 			wallEnt1->position = vector2d(700, 585);
 			scaleWall1 = vector2d(2, 1);
 			wallEnt2->position = vector2d(572, 457);
 			vecRightAng = vector3d(64, 64, 90);
-			if (enemydead < 3){
+			if (enemyEnt->health < 3){
 				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 				enemyEnt->position = vector2d(750, 300);
 			}
@@ -447,15 +579,37 @@ int main(int argc, char * argv[])
 			wallEnt1->position = vector2d(500, 500);
 			wallEnt2->position = vector2d(625, 500);
 			barrelEnt->position = vector2d(3000, 3000);
+			doorEnt->position = vector2d(5400000000, 5000000000);
+			if (lightBulbAlive == 1){
+				lightbulbEnt->position = vector2d(500, 500);
+			}
 			hostageCheck->position = vector2d(30000, 3000);
-			if (enemydead < 3){
+			if (enemyEnt->health < 3){
 				gf2d_sprite_draw(enemy, vector2d(enemyEnt->position.x - 64, enemyEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 				enemyEnt->position = vector2d(100, 100);
 			}
 			else{
 				enemyEnt->position = vector2d(2000, 2000);
 			}
-			electricBox->position = vector2d(500, 500);
+			if (enemyEnt1->health < 3){
+				gf2d_sprite_draw(enemy, vector2d(enemyEnt1->position.x - 64, enemyEnt1->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+			}
+			else{
+				enemyEnt1->position = vector2d(2000000, 20000);
+			}
+			if (enemyEnt2->health < 3){
+				gf2d_sprite_draw(enemy, vector2d(enemyEnt2->position.x - 64, enemyEnt2->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+			}
+			else{
+				enemyEnt2->position = vector2d(2000555555, 2000555555);
+			}
+			if (enemyEnt3->health < 3){
+				gf2d_sprite_draw(enemy, vector2d(enemyEnt3->position.x - 64, enemyEnt3->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
+			}
+			else{
+				enemyEnt3->position = vector2d(2003333333330, 203333333300);
+			}
+			electricBox->position = vector2d(1000, 300);
 			if (electricboxalive == 1){
 				gf2d_sprite_draw(electric, electricBox->position, NULL, NULL, NULL, NULL, NULL, (int)ef);
 				if (ef >= 1.0)ef = 0;
@@ -468,6 +622,7 @@ int main(int argc, char * argv[])
 				gf2d_sprite_draw(killZone, killCheck->position, NULL, NULL, NULL, NULL, NULL, NULL);
 
 			}
+			gf2d_sprite_draw(lightbulb, lightbulbEnt->position, NULL, NULL, NULL, NULL, NULL, NULL);
 			gf2d_sprite_draw(wall2, vector2d(wallEnt2->position.x - 64, wallEnt2->position.y - 64), &scaleWall1, NULL, &vecRightAng, NULL, NULL, (int)mf);
 			break;
 		}

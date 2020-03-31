@@ -26,6 +26,7 @@ typedef struct Entity_S
 	void(*touch)(struct Entity_S* self, struct Entity_S* other);
 	Sprite       *sprite;/**<The sprite being used**/
 	float        speed; /**<The Speed of an object*/
+	float		 health; /**<The HP of your Ent*/
 
 }Entity;
 /**
