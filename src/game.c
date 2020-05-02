@@ -5,6 +5,7 @@
 #include "gf2d_entity.h"
 #include "math.h"
 #include "collision.h"
+#include "SDL_mixer.h"
 
 int main(int argc, char * argv[])
 {
@@ -28,6 +29,7 @@ int main(int argc, char * argv[])
 	Sprite *mission;
 	Sprite *check;
 	Sprite *menu;
+	Sprite *screen;
     int mx,my;
     float mf = 0;
 	float pf = 0;
@@ -80,6 +82,7 @@ int main(int argc, char * argv[])
 	float menuOn = 0;
 	float lightBulbAlive = 1;
 	float timeEnemy = 0;
+	float MenuState = 0;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -114,7 +117,24 @@ int main(int argc, char * argv[])
 	enemyEnt2 = gf2d_entity_new();
 	enemyEnt3 = gf2d_entity_new();
 
+	//Music Time
+	Mix_Music *gMusic = NULL;
+	
+	//Initialize SDL_mixer
+	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
+	{
+		printf("SDL_mixer could not initialize! SDL_mixer Error: %s\n", Mix_GetError());
+	}
+	gMusic = Mix_LoadMUS("maintheme.wav");
+	if (gMusic == NULL)
+	{
+		printf("Failed to load beat music! SDL_mixer Error: %s\n", Mix_GetError());
+	}
+	Mix_PlayMusic(gMusic, -1);
+	//
+
     sprite = gf2d_sprite_load_image("images/backgrounds/preview16.jpg");
+	screen = gf2d_sprite_load_image("images/menumain.png");
 	breached = gf2d_sprite_load_image("images/breached.png");
     mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16);
 	player = gf2d_sprite_load_all("images/walktrue.png",128,128,2);
@@ -142,6 +162,7 @@ int main(int argc, char * argv[])
 	lightbulbEnt->position = vector2d(850, 150);
 	playerEnt->position = vector2d(300, 300);
 	enemyEnt3->speed = 1;
+	
     while(!done)
     {
 		SDL_Event event;
@@ -551,7 +572,23 @@ int main(int argc, char * argv[])
 		gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 		gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 		//level design here
-		while (levelNumber == 0){
+		while (levelNumber == 0 && MenuState == 0){
+			gf2d_sprite_draw_image(screen, vector2d(0, 0));
+			break;
+		}
+		// debug purposes
+		if (keys[SDL_SCANCODE_0]){
+			MenuState = 1;
+		}
+		while (levelNumber == 0 && MenuState == 1){
+			gf2d_sprite_draw_image(screen, vector2d(0, 0));
+			screen = gf2d_sprite_load_image("images/menone.png");
+			if (keys[SDL_SCANCODE_RETURN]){
+				MenuState = 2;
+			}
+			break;
+		}
+		while (levelNumber == 0 && MenuState == 2){
 			enemyEnt1->position = vector2d(3000000000, 30000000);
 			enemyEnt2->position = vector2d(3000000000, 30000000);
 			enemyEnt3->position = vector2d(3000000000, 30000000);
@@ -575,7 +612,7 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw(barrel, vector2d(barrelEnt->position.x - 64, barrelEnt->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)mf);
 			break;
 		}
-		while (levelNumber == 1){
+		while (levelNumber == 1 && MenuState == 4){
 			wallEnt1->position = vector2d(500, 500);
 			wallEnt2->position = vector2d(625, 500);
 			barrelEnt->position = vector2d(3000, 3000);
