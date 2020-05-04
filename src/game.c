@@ -2,6 +2,7 @@
 #include "gf2d_graphics.h"
 #include "gf2d_sprite.h"
 #include "simple_logger.h"
+#include "simple_json.h"
 #include "gf2d_entity.h"
 #include "math.h"
 #include "collision.h"
@@ -57,6 +58,7 @@ int main(int argc, char * argv[])
 	Vector4D colorShiftTracer;
 	Vector4D colorShiftBossOne;
 	Vector4D *colorshiftturn;
+	Vector4D colorShiftBossTwo;
 	Entity *enemyEnt;
 	Entity *enemyEnt1;
 	Entity *enemyEnt2;
@@ -97,6 +99,10 @@ int main(int argc, char * argv[])
 	float fbf = 0;
 	float mbf = 0;
 	float flutterHP = 20;
+	int cycle;
+	int cycledone;
+	float moBOHP = 50;
+	FILE *fptr;
     
     /*program initializtion*/
     init_logger("gf2d.log");
@@ -114,8 +120,12 @@ int main(int argc, char * argv[])
     SDL_ShowCursor(SDL_DISABLE);
     
     /*demo setup*/
+	cycle = 1;
+	cycledone = 0;
 	colorShiftBossOne.w = 255;
-	gf2d_entity_manager_init(30);
+	colorShiftBossTwo.w = 255;
+	colorShiftBossOne.z = 255;
+	gf2d_entity_manager_init(60);
 	bossOne = gf2d_entity_new();
 	bossTwo = gf2d_entity_new();
 	tracerEnt = gf2d_entity_new();
@@ -124,6 +134,13 @@ int main(int argc, char * argv[])
 	barrelEnt = gf2d_entity_new();
 	wallEnt1 = gf2d_entity_new();
 	wallEnt2 = gf2d_entity_new();
+	wallEnt3 = gf2d_entity_new();
+	wallEnt4 = gf2d_entity_new();
+	wallEnt5 = gf2d_entity_new();
+	wallEnt6 = gf2d_entity_new();
+	wallEnt7 = gf2d_entity_new();
+	wallEnt8 = gf2d_entity_new();
+	wallEnt9 = gf2d_entity_new();
 	lightbulbEnt = gf2d_entity_new();
 	electricBox = gf2d_entity_new();
 	hostageEnt = gf2d_entity_new();
@@ -220,6 +237,7 @@ int main(int argc, char * argv[])
 	lightbulbEnt->position = vector2d(850, 150);
 	playerEnt->position = vector2d(300, 300);
 	enemyEnt3->speed = 1;
+	colorShiftBossTwo.z = 0;
 	
 	while (!done)
 	{
@@ -392,16 +410,23 @@ int main(int argc, char * argv[])
 			90,
 			90
 		};
+		SDL_Rect BossTwoBox = {
+			bossTwo->position.x -45,
+			bossTwo->position.y -45,
+			90,
+			90
+		};
 		// collision testing
-		if (collide_rect(Mouse, enemyBoxOne))slog("ping");
-		if (collide_rect(Mouse, enemyBoxOna))slog("ping");
-		if (collide_rect(Mouse, enemyBoxTwo))slog("ping");
-		if (collide_rect(Mouse, enemyBoxThree))slog("ping");
-		if (collide_rect(Mouse, BossOneBox))slog("ping"); 
-		if (collide_rect(Mouse, playerBox))slog("ping");
-		if (collide_rect(Mouse, wall1Box))slog("ping");
-		if (collide_rect(Mouse, wall2Box))slog("ping");
-		if (collide_rect(Mouse, doorBox))slog("ping");
+		//if (collide_rect(Mouse, enemyBoxOne))slog("ping");
+		//if (collide_rect(Mouse, enemyBoxOna))slog("ping");
+		//if (collide_rect(Mouse, enemyBoxTwo))slog("ping");
+		//if (collide_rect(Mouse, enemyBoxThree))slog("ping");
+		//if (collide_rect(Mouse, BossOneBox))slog("ping"); 
+		//if (collide_rect(Mouse, playerBox))slog("ping");
+		//if (collide_rect(Mouse, wall1Box))slog("ping");
+		//if (collide_rect(Mouse, wall2Box))slog("ping");
+		//if (collide_rect(Mouse, doorBox))slog("ping");
+		//if (collide_rect(Mouse, KillBox))slog("ping");
 		// SHOOTING CODE STARTS HERE
 		if (distance > 250){
 			while (SDL_PollEvent(&event)) // check to see if an event has happened
@@ -418,6 +443,11 @@ int main(int argc, char * argv[])
 						flutterHP -= 1;
 						colorShiftBossOne.z += 12.75;
 						slog("Bang!");
+						break;
+					}
+					if (collide_rect(Mouse, BossTwoBox)){
+						moBOHP -= 1;
+						colorShiftBossTwo.z += 30;
 						break;
 					}
 					if (collide_rect(Mouse, enemyBoxOna)){
@@ -560,31 +590,31 @@ int main(int argc, char * argv[])
 			}
 		}
 		if (levelNumber == 0 || levelNumber == 1|| levelNumber == 1.5){
-			if (collide_circle(enemyEnt->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_circle(enemyEnt->position, 32, lightbulbEnt->position, 1200) && (levelNumber == 1 || levelNumber == 0)){
 				if (collide_rect(playerBox, enemyBoxOne)){
 					playerEnt->position = vector2d(30000000000000, 300000000000);
 					Mix_PlayChannel(-1, gdeath, 0);
 				}
 			}
-			if (collide_circle(enemyEnt1->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_circle(enemyEnt1->position, 32, lightbulbEnt->position, 1200) && levelNumber == 1){
 				if (collide_rect(playerBox, enemyBoxOna)){
 					playerEnt->position = vector2d(30000000000000, 300000000000);
 					Mix_PlayChannel(-1, gdeath, 0);
 				}
 			}
-			if (collide_circle(enemyEnt2->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_circle(enemyEnt2->position, 32, lightbulbEnt->position, 1200) && levelNumber == 1){
 				if (collide_rect(playerBox, enemyBoxTwo)){
 					playerEnt->position = vector2d(30000000000000, 300000000000);
 					Mix_PlayChannel(-1, gdeath, 0);
 				}
 			}
-			if (collide_circle(enemyEnt3->position, 32, lightbulbEnt->position, 1200)){
+			if (collide_circle(enemyEnt3->position, 32, lightbulbEnt->position, 1200)&& levelNumber == 1){
 				if (collide_rect(playerBox, enemyBoxThree)){
 					playerEnt->position = vector2d(30000000000000, 300000000000);
 					Mix_PlayChannel(-1, gdeath, 0);
 				}
 			}
-			if (collide_rect(BossOneBox, playerBox)){
+			if (collide_rect(BossOneBox, playerBox) && MenuState == 3.5){
 				playerEnt->position = vector2d(3000000000000, 300000000000000);
 				Mix_PlayChannel(-1, gdeath, 0);
 			}
@@ -649,6 +679,91 @@ int main(int argc, char * argv[])
 			}
 			//slog("The position has been updated to %f", playerEnt->position);
 		}
+		if (levelNumber != 3){
+			bossTwo->position = vector2d(50000000, 5000000000);
+		}
+		if ((collide_rect(playerBox, KillBox) && levelNumber != 3) || keys[SDL_SCANCODE_3]){
+			levelNumber = 3;
+			MenuState = 5;
+			killCheck->position = vector2d(4000000, 4000000);
+			bossTwo->position = vector2d(300, 300);
+			wallEnt2->position = vector2d(5400000000000, 500000);
+			wallEnt1->position = vector2d(500000000000, 500000000000);
+		}
+		if(levelNumber == 3 && MenuState == 5 && moBOHP > 0 && moBOHP < 60){
+			if (cycle == 0){
+				if (bossTwo->position.x > 60)bossTwo->position.x -= bossTwo->speed;
+				if (bossTwo->position.x < 60)bossTwo->position.x += bossTwo->speed;
+				if (bossTwo->position.y > 60)bossTwo->position.y -= bossTwo->speed;
+				if (bossTwo->position.y < 60)bossTwo->position.y += bossTwo->speed;
+				if (bossTwo->position.x == 60 && bossTwo->position.y == 60){
+					cycledone = 0;
+				}
+			}
+			if (cycle == 1){
+				if (bossTwo->position.x > 60)bossTwo->position.x -= bossTwo->speed;
+				if (bossTwo->position.x < 60)bossTwo->position.x += bossTwo->speed;
+				if (bossTwo->position.y > 600)bossTwo->position.y -= bossTwo->speed;
+				if (bossTwo->position.y < 600)bossTwo->position.y += bossTwo->speed;
+				if (bossTwo->position.x == 60 && bossTwo->position.y == 600){
+					cycledone = 1;
+				}
+			}
+			if (cycle == 2){
+				if (bossTwo->position.x > 1200)bossTwo->position.x -= bossTwo->speed;
+				if (bossTwo->position.x < 1200)bossTwo->position.x += bossTwo->speed;
+				if (bossTwo->position.y > 60)bossTwo->position.y -= bossTwo->speed;
+				if (bossTwo->position.y < 60)bossTwo->position.y += bossTwo->speed;
+				if (bossTwo->position.x == 1200 && bossTwo->position.y == 60){
+					cycledone = 2;
+				}
+			}
+			if (cycle == 3){
+				if (bossTwo->position.x > 1200)bossTwo->position.x -= bossTwo->speed;
+				if (bossTwo->position.x < 1200)bossTwo->position.x += bossTwo->speed;
+				if (bossTwo->position.y > 600)bossTwo->position.y -= bossTwo->speed;
+				if (bossTwo->position.y < 600)bossTwo->position.y += bossTwo->speed;
+				if (bossTwo->position.x == 1200 && bossTwo->position.y == 600){
+					cycledone = 3;
+				}
+			}
+			if (cycle == cycledone){
+				cycle = rand() % 4;
+			}
+			//slog("cycle is: %i", cycle);
+		}
+		if (moBOHP > 40){
+			bossTwo->speed = 3;
+		}
+		if (moBOHP == 40){
+			bossTwo->position = vector2d(60, 60);
+			cycle = 2;
+		}
+		if (moBOHP > 30 && moBOHP < 40){
+			bossTwo->speed = 6;
+		}
+		if (moBOHP == 30){
+			bossTwo->position = vector2d(60, 60);
+			cycle = 3;
+		}
+		if (moBOHP > 20 && moBOHP < 30){
+			bossTwo->speed = 10;
+		}
+		if (moBOHP == 20){
+			bossTwo->position = vector2d(60,60);
+			cycle = 0;
+		}
+		if (moBOHP > 10 && moBOHP < 20){
+			bossTwo->speed = 1;
+		}
+		if (moBOHP == 10){
+			bossTwo->position = vector2d(60, 60);
+		}
+		if (moBOHP <= 0){
+			levelNumber = 6;
+			MenuState = 6;
+			moBOHP += 100;
+		}
 		if (keys[SDL_SCANCODE_S]){
 			playerEnt->speed *= -1;
 			if (mx >= playerEnt->position.x){
@@ -697,6 +812,7 @@ int main(int argc, char * argv[])
 			bossOne->position = vector2d(5000000000, 5000000000);
 			levelNumber = 1;
 			MenuState = 4;
+			flutterHP = 10;
 		}
 		if (lightBulbAlive == 1){
 			timeEnemy += 0.1;
@@ -716,7 +832,131 @@ int main(int argc, char * argv[])
 		gf2d_sprite_draw_image(sprite, vector2d(780, 0));
 		gf2d_sprite_draw_image(sprite, vector2d(0, 585));
 		//level design here
+		if (keys[SDL_SCANCODE_9]){
+			levelNumber = 69;
+		}
+		while (levelNumber == 69){
+			if (keys[SDL_SCANCODE_KP_PLUS]){
+				fptr = fopen("data/config1.txt", "w+");
+				fprintf(fptr, "%f", wallEnt1->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config2.txt", "w+");
+				fprintf(fptr, "%f", wallEnt1->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config3.txt", "w+");
+				fprintf(fptr, "%f", wallEnt2->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config4.txt", "w+");
+				fprintf(fptr, "%f", wallEnt2->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config5.txt", "w+");
+				fprintf(fptr, "%f", wallEnt3->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config6.txt", "w+");
+				fprintf(fptr, "%f", wallEnt3->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config7.txt", "w+");
+				fprintf(fptr, "%f", wallEnt4->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config8.txt", "w+");
+				fprintf(fptr, "%f", wallEnt4->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config9.txt", "w+");
+				fprintf(fptr, "%f", wallEnt5->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config10.txt", "w+");
+				fprintf(fptr, "%f", wallEnt5->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config11.txt", "w+");
+				fprintf(fptr, "%f", wallEnt6->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config12.txt", "w+");
+				fprintf(fptr, "%f", wallEnt6->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config13.txt", "w+");
+				fprintf(fptr, "%f", wallEnt7->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config14.txt", "w+");
+				fprintf(fptr, "%f", wallEnt7->position.y);
+				fclose(fptr);
+			}
+			if (keys[SDL_SCANCODE_KP_MINUS]){
+				fptr = fopen("data/config1.txt", "r");
+				fscanf(fptr, "%f", &wallEnt1->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config2.txt", "r");
+				fscanf(fptr, "%f", &wallEnt1->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config3.txt", "r");
+				fscanf(fptr, "%f", &wallEnt2->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config4.txt", "r");
+				fscanf(fptr, "%f", &wallEnt2->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config5.txt", "r");
+				fscanf(fptr, "%f", &wallEnt3->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config6.txt", "r");
+				fscanf(fptr, "%f", &wallEnt3->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config7.txt", "r");
+				fscanf(fptr, "%f", &wallEnt4->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config8.txt", "r");
+				fscanf(fptr, "%f", &wallEnt4->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config9.txt", "r");
+				fscanf(fptr, "%f", &wallEnt5->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config10.txt", "r");
+				fscanf(fptr, "%f", &wallEnt5->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config11.txt", "r");
+				fscanf(fptr, "%f", &wallEnt6->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config12.txt", "r");
+				fscanf(fptr, "%f", &wallEnt6->position.y);
+				fclose(fptr);
+				fptr = fopen("data/config13.txt", "r");
+				fscanf(fptr, "%f", &wallEnt7->position.x);
+				fclose(fptr);
+				fptr = fopen("data/config14.txt", "r");
+				fscanf(fptr, "%f", &wallEnt7->position.y);
+				fclose(fptr);
+			}
+			vecRightAng = vector3d(64, 64, 90);
+			if (keys[SDL_SCANCODE_KP_0]){
+				wallEnt1->position = vector2d(mx, my);
+			}
+			if (keys[SDL_SCANCODE_KP_1]){
+				wallEnt2->position = vector2d(mx, my);
+			}
+			if (keys[SDL_SCANCODE_KP_2]){
+				wallEnt3->position = vector2d(mx, my);
+			}
+			if (keys[SDL_SCANCODE_KP_3]){
+				wallEnt4->position = vector2d(mx, my);
+			}
+			if (keys[SDL_SCANCODE_KP_4]){
+				wallEnt5->position = vector2d(mx, my);
+			}
+			if (keys[SDL_SCANCODE_KP_5]){
+				wallEnt6->position = vector2d(mx, my);
+			}
+			if (keys[SDL_SCANCODE_KP_6]){
+				wallEnt7->position = vector2d(mx, my);
+			}
+			gf2d_sprite_draw(wall2, wallEnt2->position, NULL, NULL, NULL, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(wall, wallEnt1->position, NULL, NULL, NULL, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(wall2, wallEnt3->position, NULL, NULL, NULL, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(wall2, wallEnt4->position, NULL, NULL, NULL, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(wall2, wallEnt5->position, NULL, NULL, &vecRightAng, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(wall2, wallEnt6->position, NULL, NULL, &vecRightAng, NULL, NULL, (int)mf);
+			gf2d_sprite_draw(wall2, wallEnt7->position, NULL, NULL, &vecRightAng, NULL, NULL, (int)mf);
+			break;
+		}
 		while (levelNumber == 0 && MenuState == 0){
+			screen = gf2d_sprite_load_image("images/menumain.png");
 			gf2d_sprite_draw_image(screen, vector2d(0, 0));
 			break;
 		}
@@ -832,12 +1072,12 @@ int main(int argc, char * argv[])
 			gf2d_sprite_draw(wall2, vector2d(wallEnt2->position.x - 64, wallEnt2->position.y - 64), &scaleWall1, NULL, &vecRightAng, NULL, NULL, (int)mf);
 			break;
 		}
-		if (MenuState == 2 || MenuState == 4 || MenuState == 3.5){
+		if (MenuState == 2 || MenuState == 4 || MenuState == 3.5 || MenuState == 5){
 			gf2d_sprite_draw(player, vector2d(playerEnt->position.x - 64, playerEnt->position.y - 64), NULL, NULL, vecturn, NULL, NULL, (int)pf);
 			gf2d_sprite_draw(tracer, vector2d(mx + 32, my + 32), scale, originpoint, vecturn, NULL, colorshiftturn, 0);
 		}	
 		if (MenuState == 5){
-			gf2d_sprite_draw(moBO, vector2d(bossTwo->position.x - 64, bossTwo->position.y - 64), NULL, NULL, NULL, NULL, NULL, (int)fbf);
+			gf2d_sprite_draw(moBO, vector2d(bossTwo->position.x - 64, bossTwo->position.y - 64), NULL, NULL, NULL, NULL, &colorShiftBossTwo, (int)fbf);
 		}
 		if (MenuState == 3.5){
 			gf2d_sprite_draw(flutter, vector2d(bossOne->position.x - 64, bossOne->position.y - 64), NULL, NULL, NULL, NULL, &colorShiftBossOne, (int)mbf);
@@ -882,7 +1122,17 @@ int main(int argc, char * argv[])
 					}
 				}
 			}
-		
+			if (colorShiftBossTwo.z >= 255){
+				colorShiftBossTwo.z = 0;
+			}
+			if (MenuState == 6){
+				screen = gf2d_sprite_load_image("images/menend.png");
+				gf2d_sprite_draw_image(screen, vector2d(0, 0));
+				if (keys[SDL_SCANCODE_RETURN]){
+					MenuState = 0;
+					levelNumber = 0;
+				}
+			}
             
             //UI elements last
             gf2d_sprite_draw(
