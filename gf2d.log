@@ -6164,3 +6164,1273 @@ c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse 
 c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:1152: ---==== END ====---
 c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:28: sprite system closed
 c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:163: graphics closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:109: ---==== BEGIN ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:132: graphics initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:45: sprite system initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:37: allocated entity list of size 4
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:1152: ---==== END ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:28: sprite system closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:163: graphics closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:109: ---==== BEGIN ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:132: graphics initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:45: sprite system initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:37: allocated entity list of size 4
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:530: BREACH!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:439: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:445: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:460: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:460: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:460: Bang!
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:1152: ---==== END ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:28: sprite system closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:163: graphics closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:109: ---==== BEGIN ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:132: graphics initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:45: sprite system initialized
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:37: allocated entity list of size 4
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 1
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_entity.c:46: the _inuse flage for this entity is 0
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:525: yes.
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\game.c:1152: ---==== END ====---
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_sprite.c:28: sprite system closed
+c:\users\ozyfurpc\documents\2d\tacticalshooter\src\gf2d_graphics.c:163: graphics closed
